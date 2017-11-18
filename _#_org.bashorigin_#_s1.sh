@@ -16,7 +16,7 @@ function EXPORTS_copy_minimal_as_base {
     CALL_git ensure_cloned_commit \
         "$completePath" \
         "git@github.com:h5bp/html5-boilerplate.git" \
-        "v5.3.0"
+        "v6.0.1"
 
     if [ ! -e "$minimalPath" ]; then
         rsync --recursive "$__DIRNAME__/minimal/" "$minimalPath/"
