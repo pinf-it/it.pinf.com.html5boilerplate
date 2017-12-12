@@ -15,7 +15,7 @@ function EXPORTS_copy_minimal_as_base {
 
     CALL_git ensure_cloned_commit \
         "$completePath" \
-        "git@github.com:h5bp/html5-boilerplate.git" \
+        "https://github.com/h5bp/html5-boilerplate.git" \
         "v6.0.1"
 
     if [ ! -e "$minimalPath" ]; then
