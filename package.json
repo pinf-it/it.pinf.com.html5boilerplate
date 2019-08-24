@@ -1,7 +1,7 @@
 {
-    "name": "it.pinf.com.html5boilerplate",
-    "version": "0.1.4",
-    "pm": {
-        "publish": "npm"
-    }
+  "name": "it.pinf.com.html5boilerplate",
+  "version": "0.1.5-pre.0",
+  "pm": {
+    "publish": "npm"
+  }
 }
